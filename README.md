@@ -33,3 +33,10 @@ The user provides the initial state of the puzzle as a 3x3 matrix through the co
 Enter row 1 of the start state (space-separated): 1 2 3
 Enter row 2 of the start state (space-separated): 4 0 6
 Enter row 3 of the start state (space-separated): 7 5 8
+```
+The goal state is predefined in the code as:
+goal = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 0]
+]
